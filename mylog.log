@@ -1,0 +1,20 @@
+2021-09-21 10:21:25.639  INFO 10367 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 10367 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 10:21:25.640 DEBUG 10367 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 10:21:25.640  INFO 10367 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 10:21:26.301  INFO 10367 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 10:21:26.310  INFO 10367 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 10:21:26.310  INFO 10367 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 10:21:26.351  INFO 10367 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 10:21:26.352  INFO 10367 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 677 ms
+2021-09-21 10:21:26.592  INFO 10367 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 10:21:26.600  INFO 10367 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 1.293 seconds (JVM running for 1.595)
+2021-09-21 10:21:50.442  INFO 10462 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 10462 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 10:21:50.444 DEBUG 10462 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 10:21:50.445  INFO 10462 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 10:21:51.065  INFO 10462 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 10:21:51.074  INFO 10462 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 10:21:51.074  INFO 10462 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 10:21:51.117  INFO 10462 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 10:21:51.117  INFO 10462 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 622 ms
+2021-09-21 10:21:51.351  INFO 10462 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 10:21:51.359  INFO 10462 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 1.292 seconds (JVM running for 1.602)
