@@ -1,4 +1,4 @@
-package com.api.JavaBackendExercise.Model;
+package com.api.JavaBackendExercise.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -13,7 +13,7 @@ enum FlightType {
 }
 
 @Entity
-@Table(name = "TRAFFIC")
+@Table(name = "la_traffic")
 public class Traffic implements Serializable {
 
     @Id

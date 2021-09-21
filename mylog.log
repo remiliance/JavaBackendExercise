@@ -110,3 +110,793 @@ jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
 2021-09-21 11:45:03.438 DEBUG 21047 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:a547f171-d7ff-4dca-9682-b1af48740528 user=SA: (connection evicted)
 2021-09-21 11:45:03.439 DEBUG 21047 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2021-09-21 11:45:03.440  INFO 21047 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 11:58:13.319  INFO 22335 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 22335 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 11:58:13.325 DEBUG 22335 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 11:58:13.326  INFO 22335 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 11:58:14.321  INFO 22335 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 11:58:14.383  INFO 22335 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-09-21 11:58:15.126  INFO 22335 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 11:58:15.144  INFO 22335 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 11:58:15.145  INFO 22335 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 11:58:15.280  INFO 22335 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 11:58:15.280  INFO 22335 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1838 ms
+2021-09-21 11:58:15.315 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 11:58:15.348 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 11:58:15.353 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 11:58:15.353 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 11:58:15.354 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 11:58:15.354 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 11:58:15.354 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 11:58:15.354 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 11:58:15.354 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 11:58:15.355 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 11:58:15.355 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 11:58:15.355 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 11:58:15.356 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 11:58:15.356 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 11:58:15.356 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 11:58:15.356 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 11:58:15.357 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 11:58:15.357 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 11:58:15.357 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 11:58:15.358 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 11:58:15.358 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 11:58:15.358 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 11:58:15.358 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 11:58:15.359 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 11:58:15.359 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 11:58:15.359 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 11:58:15.359 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 11:58:15.359 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 11:58:15.360 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 11:58:15.360 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 11:58:15.360 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 11:58:15.361 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 11:58:15.361 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 11:58:15.361 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 11:58:15.361 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 11:58:15.361 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 11:58:15.362 DEBUG 22335 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 11:58:15.362  INFO 22335 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 11:58:15.626 DEBUG 22335 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.628  INFO 22335 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 11:58:15.640  INFO 22335 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2'
+2021-09-21 11:58:15.728 DEBUG 22335 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-09-21 11:58:15.735 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.736 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.737 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.738 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.739 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.740 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.742 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.743 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.744 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA
+2021-09-21 11:58:15.745 DEBUG 22335 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 11:58:16.395  INFO 22335 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 11:58:16.461  INFO 22335 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 11:58:16.637  INFO 22335 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 11:58:16.802  INFO 22335 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 11:58:17.474  INFO 22335 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 11:58:17.484  INFO 22335 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 11:58:17.542  WARN 22335 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 11:58:18.289  INFO 22335 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 11:58:18.305  INFO 22335 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 5.8 seconds (JVM running for 6.491)
+2021-09-21 11:58:21.551  INFO 22335 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 11:58:21.552  INFO 22335 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 11:58:21.560  INFO 22335 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 11:58:21.561 DEBUG 22335 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 11:58:21.563 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.564 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.565 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.566 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.566 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.567 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.568 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.568 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.569 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.570 DEBUG 22335 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:2cffd616-7e34-49b1-8ef1-63a1f7dae5c2 user=SA: (connection evicted)
+2021-09-21 11:58:21.571 DEBUG 22335 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 11:58:21.571  INFO 22335 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:01:42.280  INFO 22712 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 22712 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:01:42.288 DEBUG 22712 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:01:42.289  INFO 22712 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:01:44.130  INFO 22712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:01:44.245  INFO 22712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:01:45.718  INFO 22712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:01:45.753  INFO 22712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:01:45.754  INFO 22712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:01:46.200  INFO 22712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:01:46.201  INFO 22712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3721 ms
+2021-09-21 12:01:46.259 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:01:46.321 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:01:46.330 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:01:46.331 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:01:46.331 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:01:46.332 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:01:46.332 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:01:46.333 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:01:46.333 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:01:46.334 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:01:46.335 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:01:46.336 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:01:46.337 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:01:46.337 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:01:46.338 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:01:46.338 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:01:46.339 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:01:46.340 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:01:46.340 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:01:46.341 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:01:46.342 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:01:46.342 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:01:46.343 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:01:46.343 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:01:46.344 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:01:46.344 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:01:46.345 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:01:46.345 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:01:46.346 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:01:46.347 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:01:46.347 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:01:46.348 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:01:46.348 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:01:46.349 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:01:46.350 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:01:46.350 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:01:46.351 DEBUG 22712 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:01:46.351  INFO 22712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:01:46.744 DEBUG 22712 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.746  INFO 22712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:01:46.756  INFO 22712 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596'
+2021-09-21 12:01:46.846 DEBUG 22712 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-09-21 12:01:46.853 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.855 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.856 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.857 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.858 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.859 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.860 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.861 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.863 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA
+2021-09-21 12:01:46.863 DEBUG 22712 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:01:47.512  INFO 22712 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:01:47.573  INFO 22712 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:01:47.747  INFO 22712 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:01:47.887  INFO 22712 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:01:48.562  INFO 22712 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:01:48.572  INFO 22712 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:01:48.925  WARN 22712 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:01:49.358  INFO 22712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:01:49.372  INFO 22712 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 8.646 seconds (JVM running for 9.976)
+2021-09-21 12:01:56.093  INFO 22712 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:01:56.094  INFO 22712 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 12:01:56.102  INFO 22712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 12:01:56.103 DEBUG 22712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:01:56.106 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.107 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.108 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.109 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.110 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.110 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.111 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.112 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.112 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.113 DEBUG 22712 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:de949873-c7a5-4e9f-b99b-a0f913c93596 user=SA: (connection evicted)
+2021-09-21 12:01:56.114 DEBUG 22712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 12:01:56.115  INFO 22712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:10:22.244  INFO 23254 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 23254 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:10:22.246 DEBUG 23254 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:10:22.247  INFO 23254 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:10:22.707  INFO 23254 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:10:22.740  INFO 23254 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:10:23.109  INFO 23254 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:10:23.117  INFO 23254 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:10:23.118  INFO 23254 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:10:23.189  INFO 23254 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:10:23.190  INFO 23254 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2021-09-21 12:10:23.205 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:10:23.221 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:10:23.223 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:10:23.223 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:10:23.223 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:10:23.223 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:10:23.224 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:10:23.225 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:10:23.226 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:10:23.227 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:10:23.227 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:10:23.227 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:10:23.227 DEBUG 23254 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:10:23.227  INFO 23254 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:10:23.349 DEBUG 23254 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.350  INFO 23254 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:10:23.356  INFO 23254 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2'
+2021-09-21 12:10:23.450 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-09-21 12:10:23.453 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.454 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.454 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.455 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.455 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.455 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.456 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.456 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.457 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA
+2021-09-21 12:10:23.457 DEBUG 23254 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:10:23.666  INFO 23254 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:10:23.699  INFO 23254 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:10:23.788  INFO 23254 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:10:23.873  INFO 23254 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:10:24.241  INFO 23254 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:10:24.246  INFO 23254 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:10:24.453  WARN 23254 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:10:24.667  INFO 23254 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:10:24.674  INFO 23254 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 2.773 seconds (JVM running for 3.124)
+2021-09-21 12:10:35.004  INFO 23254 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-21 12:10:35.004  INFO 23254 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-21 12:10:35.005  INFO 23254 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-21 12:10:53.452 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:10:53.452 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:10:54.545  WARN 23254 --- [http-nio-9000-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-09-21 12:11:23.453 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:11:23.453 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:11:53.454 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:11:53.455 DEBUG 23254 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:12:00.194  INFO 23254 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:12:00.195  INFO 23254 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 12:12:00.197  INFO 23254 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 12:12:00.197 DEBUG 23254 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:12:00.198 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.199 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.199 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.200 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.200 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.200 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.200 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.200 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.201 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.201 DEBUG 23254 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:bfb790ac-b6ad-4700-bd1f-a69f91fccfe2 user=SA: (connection evicted)
+2021-09-21 12:12:00.201 DEBUG 23254 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 12:12:00.201  INFO 23254 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:12:03.991  INFO 23586 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 23586 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:12:03.993 DEBUG 23586 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:12:03.993  INFO 23586 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:12:04.465  INFO 23586 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:12:04.498  INFO 23586 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:12:04.891  INFO 23586 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:12:04.900  INFO 23586 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:12:04.900  INFO 23586 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:12:04.973  INFO 23586 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:12:04.973  INFO 23586 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2021-09-21 12:12:04.988 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:12:05.004 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:12:05.006 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:12:05.006 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:12:05.006 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:12:05.006 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:12:05.006 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:12:05.007 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:12:05.008 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:12:05.009 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:12:05.010 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:12:05.010 DEBUG 23586 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:12:05.010  INFO 23586 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:12:05.130 DEBUG 23586 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.131  INFO 23586 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:12:05.136  INFO 23586 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97'
+2021-09-21 12:12:05.231 DEBUG 23586 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-09-21 12:12:05.233 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.234 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.234 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.235 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.235 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.235 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.236 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.236 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.237 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA
+2021-09-21 12:12:05.237 DEBUG 23586 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:12:05.463  INFO 23586 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:12:05.495  INFO 23586 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:12:05.585  INFO 23586 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:12:05.669  INFO 23586 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:12:06.022  INFO 23586 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:12:06.027  INFO 23586 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:12:06.210  WARN 23586 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:12:06.450  INFO 23586 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:12:06.457  INFO 23586 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 2.829 seconds (JVM running for 3.155)
+2021-09-21 12:12:35.232 DEBUG 23586 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:12:35.233 DEBUG 23586 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:13:05.234 DEBUG 23586 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:13:05.235 DEBUG 23586 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:13:25.511  INFO 23586 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:13:25.511  INFO 23586 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 12:13:25.514  INFO 23586 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 12:13:25.514 DEBUG 23586 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:13:25.515 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.515 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.515 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.515 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:0770eecb-022d-4234-acbf-4c98bc60df97 user=SA: (connection evicted)
+2021-09-21 12:13:25.516 DEBUG 23586 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 12:13:25.516  INFO 23586 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:13:27.925  INFO 23768 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 23768 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:13:27.928 DEBUG 23768 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:13:27.928  INFO 23768 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:13:28.419  INFO 23768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:13:28.450  INFO 23768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:13:28.824  INFO 23768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:13:28.832  INFO 23768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:13:28.833  INFO 23768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:13:28.906  INFO 23768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:13:28.906  INFO 23768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 931 ms
+2021-09-21 12:13:28.921 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:13:28.937 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:13:28.939 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:13:28.939 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:13:28.940 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:13:28.941 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:13:28.942 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:13:28.943 DEBUG 23768 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:13:28.943  INFO 23768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:13:29.062 DEBUG 23768 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.063  INFO 23768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:13:29.067  INFO 23768 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1'
+2021-09-21 12:13:29.163 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-09-21 12:13:29.165 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.166 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.166 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.167 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.167 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.167 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.168 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.168 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.169 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA
+2021-09-21 12:13:29.169 DEBUG 23768 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:13:29.396  INFO 23768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:13:29.427  INFO 23768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:13:29.511  INFO 23768 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:13:29.593  INFO 23768 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:13:29.948  INFO 23768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:13:29.953  INFO 23768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:13:30.158  WARN 23768 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:13:30.385  INFO 23768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:13:30.397  INFO 23768 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 2.822 seconds (JVM running for 3.161)
+2021-09-21 12:13:34.588  INFO 23768 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-21 12:13:34.588  INFO 23768 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-21 12:13:34.589  INFO 23768 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-21 12:13:59.164 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:13:59.165 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:14:29.166 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:14:29.167 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:14:59.168 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:14:59.169 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:15:29.169 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:15:29.170 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:15:59.171 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:15:59.171 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:16:29.172 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:16:29.172 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:16:59.173 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:16:59.174 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:17:29.175 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:17:29.175 DEBUG 23768 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:17:50.098  INFO 23768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:17:50.098  INFO 23768 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 12:17:50.101  INFO 23768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 12:17:50.101 DEBUG 23768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:17:50.102 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.102 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.103 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.103 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.103 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.103 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.103 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.104 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.104 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.104 DEBUG 23768 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:92c789da-bd22-41e7-b590-4022ddcf58b1 user=SA: (connection evicted)
+2021-09-21 12:17:50.104 DEBUG 23768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 12:17:50.104  INFO 23768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:17:52.421  INFO 24094 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 24094 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:17:52.423 DEBUG 24094 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:17:52.423  INFO 24094 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:17:52.909  INFO 24094 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:17:52.942  INFO 24094 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:17:53.315  INFO 24094 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:17:53.323  INFO 24094 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:17:53.324  INFO 24094 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:17:53.386  INFO 24094 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:17:53.386  INFO 24094 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2021-09-21 12:17:53.400 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:17:53.415 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:17:53.417 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:17:53.418 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:17:53.419 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:17:53.420 DEBUG 24094 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:17:53.420  INFO 24094 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:17:53.542 DEBUG 24094 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.543  INFO 24094 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:17:53.548  INFO 24094 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2'
+2021-09-21 12:17:53.643 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-09-21 12:17:53.646 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.646 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.647 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.647 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.647 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.648 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.648 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.649 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.649 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA
+2021-09-21 12:17:53.649 DEBUG 24094 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:17:53.868  INFO 24094 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:17:53.900  INFO 24094 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:17:53.993  INFO 24094 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:17:54.073  INFO 24094 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:17:54.416  INFO 24094 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:17:54.421  INFO 24094 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:17:54.605  WARN 24094 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:17:54.874  INFO 24094 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:17:54.882  INFO 24094 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 2.803 seconds (JVM running for 3.135)
+2021-09-21 12:18:23.645 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:18:23.646 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:18:53.647 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:18:53.648 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:19:23.648 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:19:23.649 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:19:53.650 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:19:53.651 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:20:23.651 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:20:23.652 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:20:53.653 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:20:53.654 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:21:23.654 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:21:23.655 DEBUG 24094 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:21:47.008  INFO 24094 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:21:47.009  INFO 24094 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 12:21:47.013  INFO 24094 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 12:21:47.013 DEBUG 24094 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:21:47.014 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.015 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.015 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.015 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.015 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.016 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.016 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.016 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.016 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.016 DEBUG 24094 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:074701bf-d67b-4782-bfd2-981e080aeaf2 user=SA: (connection evicted)
+2021-09-21 12:21:47.016 DEBUG 24094 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 12:21:47.017  INFO 24094 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:21:49.397  INFO 24500 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 24500 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:21:49.399 DEBUG 24500 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:21:49.399  INFO 24500 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:21:49.873  INFO 24500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:21:49.902  INFO 24500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:21:50.262  INFO 24500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:21:50.271  INFO 24500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:21:50.271  INFO 24500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:21:50.347  INFO 24500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:21:50.347  INFO 24500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
+2021-09-21 12:21:50.362 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:21:50.379 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:21:50.381 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:21:50.382 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:21:50.383 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:21:50.384 DEBUG 24500 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:21:50.384  INFO 24500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:21:50.511 DEBUG 24500 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.512  INFO 24500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:21:50.518  INFO 24500 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4'
+2021-09-21 12:21:50.612 DEBUG 24500 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-09-21 12:21:50.615 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.616 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.617 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.618 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.619 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.619 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.620 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.621 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.621 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA
+2021-09-21 12:21:50.621 DEBUG 24500 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:21:50.861  INFO 24500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:21:50.894  INFO 24500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:21:50.982  INFO 24500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:21:51.069  INFO 24500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:21:51.438  INFO 24500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:21:51.444  INFO 24500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:21:51.646  WARN 24500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:21:51.858  INFO 24500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:21:51.865  INFO 24500 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 2.818 seconds (JVM running for 3.148)
+2021-09-21 12:22:20.614 DEBUG 24500 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:22:20.615 DEBUG 24500 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:22:38.657  INFO 24500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:22:38.657  INFO 24500 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-21 12:22:38.660  INFO 24500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-21 12:22:38.660 DEBUG 24500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:22:38.661 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.662 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.662 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.662 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.662 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.663 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.663 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.663 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.663 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.663 DEBUG 24500 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:cf15418d-f340-45fe-bb42-eabec4d0b5c4 user=SA: (connection evicted)
+2021-09-21 12:22:38.664 DEBUG 24500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-21 12:22:38.664  INFO 24500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-21 12:22:40.706  INFO 24710 --- [main] c.a.J.JavaBackendExerciseApplication     : Starting JavaBackendExerciseApplication using Java 11.0.5 on liance-G5-5587 with PID 24710 (/home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise/target/classes started by liance in /home/liance/Documents/Spring_ExoAPHP/JavaBackendExercise)
+2021-09-21 12:22:40.708 DEBUG 24710 --- [main] c.a.J.JavaBackendExerciseApplication     : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-21 12:22:40.709  INFO 24710 --- [main] c.a.J.JavaBackendExerciseApplication     : No active profile set, falling back to default profiles: default
+2021-09-21 12:22:41.198  INFO 24710 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-21 12:22:41.235  INFO 24710 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2021-09-21 12:22:41.638  INFO 24710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-21 12:22:41.647  INFO 24710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-21 12:22:41.647  INFO 24710 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-21 12:22:41.720  INFO 24710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-21 12:22:41.720  INFO 24710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2021-09-21 12:22:41.734 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+
+2021-09-21 12:22:41.750 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-21 12:22:41.752 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-21 12:22:41.752 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-21 12:22:41.753 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"org.h2.Driver"
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-21 12:22:41.754 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-21 12:22:41.755 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-21 12:22:41.756 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-21 12:22:41.756 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-21 12:22:41.756 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"sa"
+2021-09-21 12:22:41.756 DEBUG 24710 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-21 12:22:41.756  INFO 24710 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-21 12:22:41.878 DEBUG 24710 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.879  INFO 24710 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-21 12:22:41.884  INFO 24710 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea'
+2021-09-21 12:22:41.979 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2021-09-21 12:22:41.981 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.982 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.983 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.983 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.983 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.984 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.984 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.985 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.985 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:37a79d89-d594-4699-901e-d6fab466e9ea user=SA
+2021-09-21 12:22:41.985 DEBUG 24710 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-09-21 12:22:42.200  INFO 24710 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-21 12:22:42.234  INFO 24710 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-21 12:22:42.324  INFO 24710 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-21 12:22:42.407  INFO 24710 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-21 12:22:42.793  INFO 24710 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-21 12:22:42.799  INFO 24710 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-21 12:22:43.015  WARN 24710 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-21 12:22:43.229  INFO 24710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-09-21 12:22:43.236  INFO 24710 --- [main] c.a.J.JavaBackendExerciseApplication     : Started JavaBackendExerciseApplication in 2.889 seconds (JVM running for 3.236)
+2021-09-21 12:22:51.398  INFO 24710 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-21 12:22:51.398  INFO 24710 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-21 12:22:51.399  INFO 24710 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-21 12:23:11.981 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:23:11.982 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:23:41.982 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:23:41.983 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:24:11.984 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:24:11.985 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:24:41.986 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:24:41.987 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:25:11.988 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:25:11.989 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:25:41.989 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:25:41.990 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:26:11.991 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:26:11.992 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:26:41.993 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:26:41.993 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-21 12:27:11.994 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-21 12:27:11.994 DEBUG 24710 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.

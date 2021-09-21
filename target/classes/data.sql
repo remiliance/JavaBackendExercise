@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS  LA_TRAFFIC;
+DROP TABLE IF EXISTS  LA_TRAFFIC, TRAFFIC;
 
 CREATE TYPE Move AS ENUM ('Arrival', 'Departure');
 CREATE TYPE FlightType AS ENUM ('Domestic', 'International');
